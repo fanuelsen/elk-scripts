@@ -15,7 +15,7 @@ function header_info {
  / /_/ /  __/ /_/ / / /_/ / / / /   / /___/ / / /___/ /___/ /| |
 /_____/\___/_.___/_/\__,_/_/ /_/   /_//____/ /_____/_____/_/ |_|
 
-           MINIMAL + DOCKER + ELASTICSEARCH STACK
+           DEBIAN 13 + DOCKER + ELASTICSEARCH STACK
 EOF
 }
 header_info
