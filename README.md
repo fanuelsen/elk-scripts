@@ -14,8 +14,11 @@ This repository contains two scripts for deploying a complete ELK stack:
 ### Option 1: Proxmox VE (New VM)
 
 ```bash
-# Run on your Proxmox host to create a complete ELK VM
+# Download on your Proxmox host and run script to create a complete ELK VM
 bash debian13-elk-docker.sh
+
+# Or run directly from github
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/fanuelsen/elk-scripts/refs/heads/main/debian13-elk-docker.sh)"
 ```
 
 This creates a ready-to-use VM with everything pre-installed.
