@@ -26,8 +26,11 @@ This creates a ready-to-use VM with everything pre-installed.
 ### Option 2: Existing Debian/Ubuntu System
 
 ```bash
-# Run on any existing Debian-based system
+# Download on your existing Debian-based system
 sudo bash elk-docker-install.sh
+
+# Or run directly from github
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/fanuelsen/elk-scripts/refs/heads/main/elk-docker-install.sh)"
 ```
 
 This installs Docker + ELK stack on your current system.
